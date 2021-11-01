@@ -5,8 +5,8 @@ const doc = {
     title: 'Khang API',
     description: 'Description',
   },
-  host: 'localhost:4000',
-  schemes: ['http'],
+  host: 'https://assignment4-api.herokuapp.com/',
+  schemes: ['https'],
 };
 
 const outputFile = './swagger-output.json';
