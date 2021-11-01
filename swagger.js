@@ -5,7 +5,7 @@ const doc = {
     title: 'Khang API',
     description: 'Description',
   },
-  host: 'https://assignment4-api.herokuapp.com/',
+  host: 'assignment4-api.herokuapp.com',
   schemes: ['https'],
 };
 
