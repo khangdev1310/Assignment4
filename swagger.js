@@ -5,8 +5,8 @@ const doc = {
     title: 'Khang API',
     description: 'Description',
   },
-  host: 'localhost:3000',
-  schemes: ['https'],
+  host: 'localhost:4000',
+  schemes: ['http'],
 };
 
 const outputFile = './swagger-output.json';

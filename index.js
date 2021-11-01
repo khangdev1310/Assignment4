@@ -5,6 +5,9 @@ const path = require('path')
 const port = 4000
 const cors = require('cors')
 const mongoose = require('mongoose')
+const swaggerUi = require('swagger-ui-express')
+const swaggerDocument = require('./swagger-output.json')
+app.use('/api/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 
 const MONGO_URL = `mongodb+srv://khang2:tHcOGM1Loh6yTpGw@cluster0.cupsw.mongodb.net/test?authSource=admin&replicaSet=atlas-vyloa8-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true`
 const connectDb = async () => {
